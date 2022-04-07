@@ -1,0 +1,63 @@
+import java.util.Random;
+
+import javax.swing.JOptionPane;
+
+
+public class F10Project {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/* So what is this gonna be like
+		 * If statements
+		 * switch
+		 * swapping values of variables
+		 * GUI
+		 * Scanner (where applicable)
+		 * Random value
+		 * expressions
+		 * data types
+		 * Math.() method
+		 * 
+		 * I think I'll go with a lottery kind of thing, I don't know where that leaves a few topics
+		 * 
+		 * A522 Little Lottery (date name)
+     * F10Project (project code)
+		 */
+
+		
+		//Little Lottery
+		String UserName = JOptionPane.showInputDialog("Please enter your name");
+		JOptionPane.showMessageDialog(null,"Hello " + UserName + ", welcome to the Little Lottery!!");
+		JOptionPane.showMessageDialog(null,"The rules are simple, guess a number from 1 to 10 and see if you pick the winning number. E Z huh!");
+		
+		int guessed_number = Integer.parseInt(JOptionPane.showInputDialog("Guess a number from 1 to 10"));
+		JOptionPane.showMessageDialog(null, guessed_number + "! Let's see if you're lucky");
+		
+		//Generating random numbers for the lottery
+		 Random random = new Random(); 
+		 
+		 int p = random.nextInt(9)+1;
+		 
+		 if (guessed_number == p) {
+			 
+				JOptionPane.showMessageDialog(null, "I'm afraid ....");
+				JOptionPane.showMessageDialog(null, "you just won Little Lottery");
+		 }
+		 else if (guessed_number != p) {
+				JOptionPane.showMessageDialog(null, "I'm afraid ....");
+				JOptionPane.showMessageDialog(null, "you didn't guess the right number, better luck next time"); 
+				JOptionPane.showMessageDialog(null, p + " was the lucky number.");
+
+		 }
+
+		 }
+		 
+		 
+		 
+		 //Got me thinking
+		 //I think I need a for loop for this
+		 //if statements don't loop i'm afraid
+	}
+
+

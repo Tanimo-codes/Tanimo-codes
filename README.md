@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Tanimo-codes
 - 👀 I’m interested in Mobile app development
-- 🌱 I’m currently learning Java and Python
+- 🌱 I’m currently learning Java and Kotlin
 - 💞️ I’m looking to collaborate on beginner friendly group projects
 - 📫 How to reach me 12adesojialabi@gmail.com
 
